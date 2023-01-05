@@ -1,4 +1,5 @@
 My solution to the task is given in this picture.
 
-[image](d2.png)
+![image](/Users/amudha/Documents/Task/Jan/Day02/d2.png)
+
 
