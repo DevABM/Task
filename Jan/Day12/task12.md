@@ -7,7 +7,7 @@ Let’s make a well articulated and documented **"cheat-sheet"** with all the co
 
 Let’s  show us your knowledge mixed with your creativity😎
 
-*I have added a [cheatsheet](https://www.sqltutorial.org/wp-content/uploads/2016/04/SQL-Cheat-Sheet-2.png) for your reference, Make sure every cheatsheet must be UNIQUE*
+*I have added a [Linux cheatsheet](https://phoenixnap.com/kb/wp-content/uploads/2020/02/linux-commands-cheat-sheet-pdf-preview.png) for your reference, Make sure every cheatsheet must be UNIQUE*
 
 Post it on Linkedin and Spread the knowledge.😃 
 
