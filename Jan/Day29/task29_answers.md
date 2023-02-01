@@ -20,7 +20,7 @@ In summary, the Jenkins architecture is designed to be flexible, scalable, and e
 
 ## Questions
 #
-1. What’s the difference between continuous integration, continuous delivery, and continuous deployment? <br>
+1. What’s the difference between continuous integration, continuous delivery, and continuous deployment? 
 #
 Continuous Integration (CI), Continuous Delivery (CD), and Continuous Deployment (CD) are related terms in the software development and delivery process, but they have different meanings and goals.
 
@@ -32,7 +32,7 @@ Continuous Deployment (CD): CD is a software delivery practice where code change
 
 In summary, CI focuses on making it easy and fast to integrate code changes, CD focuses on making it easy and fast to deploy code changes, and CD goes a step further by automating the deployment process.<br>
 #
-2. Benefits of CI/CD<br>
+2. Benefits of CI/CD
 #
 Continuous Integration (CI) and Continuous Deployment (CD) bring several benefits to the software development and delivery process, including:
 
@@ -50,7 +50,7 @@ Improved efficiency: By automating repetitive and manual tasks, CI/CD reduces th
 
 Overall, CI/CD helps organizations to deliver software faster, with higher quality, and with less risk, making it an essential part of the modern software development and delivery process.
 #
-3. What is meant by CI-CD?<br>
+3. What is meant by CI-CD?
 #
 CI/CD pipeline is a series of automated processes that software development teams use to build, test, and deploy their applications. The pipeline helps to ensure that code changes are quickly and reliably tested and deployed to production.
 
@@ -66,7 +66,7 @@ Continuous Monitoring: Once the code is deployed, the CD process continues to mo
 
 The goal of a CI/CD pipeline is to automate as much of the software development process as possible, so that development teams can focus on writing code and delivering new features. By automating repetitive and time-consuming tasks, CI/CD pipelines can help teams to deliver code changes more quickly and with fewer errors.
 #
-4. What is Jenkins Pipeline?<br>
+4. What is Jenkins Pipeline?
 #
 A Jenkins pipeline is a way to define a Jenkins build process in code form. Instead of manually configuring builds and deployments using the Jenkins user interface, a pipeline is a script that defines the entire build process, including build triggers, build steps, and deployment actions. The pipeline can be stored in a source control repository and versioned along with the rest of the code.
 
@@ -76,7 +76,7 @@ Jenkins pipelines are written in a domain-specific language (DSL) based on Groov
 
 Using Jenkins pipelines provides several benefits, including improved efficiency and repeatability, better visibility into the build process, and the ability to automate and standardize build processes across teams and projects.
 #
-5. How do you configure the job in Jenkins?<br>
+5. How do you configure the job in Jenkins?
 #
 To configure a job in Jenkins, follow these steps:
 
@@ -100,9 +100,10 @@ Run the job: To run the job, click the "Build Now" button from the job's main pa
 
 These are the basic steps to configure a job in Jenkins. Depending on your requirements, you may need to configure additional settings, such as post-build actions, environment variables, or notifications.
 #
-6. Where do you find errors in Jenkins?<br>
-Errors in Jenkins can be found in several places:
+6. Where do you find errors in Jenkins?
 #
+Errors in Jenkins can be found in several places:
+
 Build console output: The build console output provides detailed information about each step of the build process. This is the first place to check for errors, as it provides a log of all the commands that were run during the build and any error messages that were generated.
 
 Job logs: The job logs contain information about the build history, including the build number, start time, and duration. From the job's main page, you can access the build logs by clicking on a specific build number.
@@ -115,9 +116,10 @@ Build artifacts: Build artifacts, such as test reports or log files, may contain
 
 These are some of the common places to check for errors in Jenkins. Depending on your specific configuration and the type of error, there may be other places to check as well.
 #
-7. In Jenkins how can you find log files?<br>
-Yes, Read the previous answer again.
+7. In Jenkins how can you find log files?
 #
+Yes, Read the previous answer again.
+
 #
 8. Jenkins workflow and write a script for this workflow?<br>
 #
@@ -152,7 +154,7 @@ Deploy: The ```./deploy.sh ``` command deploys the project to a test environment
 
 This is a basic example, and your specific Jenkins Workflow may have additional stages, such as deploying to production or promoting the build to a different environment. You can customize the Jenkins Workflow to fit your specific needs and requirements.
 #
-9. How to create continuous deployment in Jenkins?<br>
+9. How to create continuous deployment in Jenkins?
 #
 Continuous Deployment (CD) is a software development practice where code changes are automatically built, tested, and deployed to production. In Jenkins, you can set up a CD pipeline by using the following steps:
 
@@ -172,7 +174,7 @@ Continuous Improvement: Continuously monitor and improve the CD pipeline. For ex
 
 By following these steps, you can set up a CD pipeline in Jenkins that automates the process of building, testing, and deploying code changes to production. This can save time and reduce the risk of human error, allowing you to release new features and bug fixes faster and with greater confidence.
 #
-10. How build job in Jenkins?<br>
+10. How build job in Jenkins?
 #
 To build a job in Jenkins, you need to follow these steps:
 
@@ -192,7 +194,7 @@ Monitor the Build: You can monitor the build status from the job's build history
 
 By following these steps, you can build a job in Jenkins that automatically builds and tests your code whenever code changes are pushed to the repository. This helps to catch issues early and make it easier to deploy new features and bug fixes.
 #
-11. Why we use pipeline in Jenkins? <br>
+11. Why we use pipeline in Jenkins? 
 #
 Jenkins Pipelines are used in Jenkins to create a Continuous Delivery (CD) pipeline. The purpose of a pipeline is to automate the steps involved in the delivery process, from building and testing the code to deploying it to production. A pipeline in Jenkins is a suite of plugins that supports implementing and integrating continuous delivery pipelines into Jenkins.
 
@@ -210,7 +212,7 @@ Traceability: Pipelines provide a clear record of all the steps involved in the 
 
 Overall, pipelines in Jenkins provide a streamlined and automated way to deliver software, helping organizations to increase efficiency, reduce manual errors, and accelerate delivery.
 #
-12. Is Only Jenkins enough for automation?<br>
+12. Is Only Jenkins enough for automation?
 #
 Jenkins is a popular open-source tool for automation, but it is not the only option available. There are other tools for automation as well, such as:
 
@@ -238,7 +240,7 @@ Hashicorp Vault: Another option is to use an external secrets management tool, s
 
 It is important to consider security and accessibility when handling secrets, and to use appropriate techniques and tools to ensure that secrets are kept secure and are only accessible by authorized personnel.
 #
-14. Explain diff stages in CI-CD setup?<br>
+14. Explain diff stages in CI-CD setup?
 #
 A typical CI/CD setup typically includes the following stages:
 
@@ -254,7 +256,7 @@ Monitoring: The final stage is monitoring, where the code is monitored in produc
 
 These stages are typically automated using CI/CD tools such as Jenkins, Travis CI, and CircleCI, which allow developers to define the pipeline and automate the flow of code from development to production.
 #
-15. Name some of the plugins in Jenkin?<br>
+15. Name some of the plugins in Jenkin?
 #
 Jenkins has a large and active community of developers that have created many plugins to extend its functionality. Some of the most popular plugins include:
 
