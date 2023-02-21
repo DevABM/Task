@@ -1,23 +1,29 @@
-# Day 49 - INTERVIEW QUESTIONS ON AWS
+# Day 50: Your CI/CD pipeline on AWS 🚀 ☁
 
-Hey people, we have listened to your suggestions and we are looking forward to get more! 
-As you people have asked to put more interview based questions as part of Daily Task, So here it it :)
+What if I tell you, in next 4 days, you'll be making a CI/CD pipeline on AWS with these tools.
 
-## INTERVIEW QUESTIONS:
-- Name 5 aws services you have used and what's the use cases?
-- What are the tools used to send logs to the cloud environment? 
-- What are IAM Roles? How do you create /manage them? 
-- How to upgrade or downgrade a system with zero downtime? 
-- What is infrastructure as code and how do you use it? 
-- What is a load balancer? Give scenarios of each kind of balancer based on your experience. 
-- What is CloudFormation and why is it used for?
-- Difference between AWS CloudFormation and AWS Elastic Beanstalk?
-- What are the kinds of security attacks that can occur on the cloud? And how can we minimize them?
-- Can we recover the EC2 instance when we have lost the key?
-- What is a gateway?
-- What is the difference between the Amazon Rds, Dynamodb, and Redshift?
-- Do you prefer to host a website on S3? What's the reason if your answer is either yes or no?
+- CodeCommit
+- CodeBuild
+- CodeDeploy
+- CodePipeline
+- S3
+
+## What is CodeCommit ? 
+- CodeCommit is a managed source control service by AWS that allows users to store, manage, and version their source code and artifacts securely and at scale. It supports Git, integrates with other AWS services, enables collaboration through branch and merge workflows, and provides audit logs and compliance reports to meet regulatory requirements and track changes. Overall, CodeCommit provides developers with a reliable and efficient way to manage their codebase and set up a CI/CD pipeline for their software development projects.
+
+# Task-01 :
+- Set up a code repository on CodeCommit and clone it on your local.
+- You need to setup GitCredentials in your AWS IAM.
+- Use those credentials in your local and then clone the repository from CodeCommit
+
+# Task-02 :
+- Add a new file from local and commit to your local branch
+- Push the local changes to CodeCommit repository.
+
+For more details watch [this](https://youtu.be/p5i3cMCQ760) video.
+
+Happy Learning :)
 
 
-Let's share your answer on LinkedIn in best possible way thinking you are in a interview table. 
-Happy Learning !! :)
+
+
