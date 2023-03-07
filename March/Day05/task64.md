@@ -61,3 +61,5 @@ resource "aws_instance" "aws_ec2_test" {
 I can imagine, Terraform can be tricky, so best to use a Free video Course for terraform [here](https://bit.ly/tws-terraform)
 
 Happy Learning :)
+
+
